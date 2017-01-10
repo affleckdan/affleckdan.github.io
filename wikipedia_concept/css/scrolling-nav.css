@@ -1,0 +1,212 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 10px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+.navbar-fixed-top {
+  top: 0;
+  border-width: 0 0 1px;
+}
+
+.navbar-brand {
+  float: left;
+  height: 50px;
+  padding-top: 15px;
+    padding-right: 20px;
+    padding-left: 15px;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.navbar-brand > img {
+  display: block;
+    width: 100px; 
+    margin-top: -30%;
+}
+
+.navbar-nav {
+  margin: 7.5px -15px;
+}
+
+.navbar-nav > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav {
+    float: left;
+    margin: 0;
+  }
+  .navbar-nav > li {
+    float: left;
+  }
+  .navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-left {
+    float: left !important;
+      width: 98%;
+      margin-left: 1%;
+  }
+}
+
+.navbar-default {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+}
+.navbar-default .navbar-brand {
+  color: #777;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #777;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #333;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #555;
+  background-color: #e7e7e7;
+}
+
+.title_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 40px;
+    padding: 70px 0 70px 0;
+    background-color: #4d4d4d
+}
+
+.img-thumbnail {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  padding: 4px;
+  line-height: 1.42857143;
+  background-color: rgb(0,0,0,0);
+  border: 1px solid #111;
+  border-radius: 4px;
+  -webkit-transition: all .2s ease-in-out;
+       -o-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.section {
+    min-height: 100%;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 25px;
+    text-align: justify;
+    background: #fff;
+    
+    font-size: 12pt;
+    /*border-bottom: solid 1px;
+    border-color: #ccc;*/
+}
+
+.section:nth-child(odd) {
+    background: #eee;
+}
+
+.subject_title {
+    max-width: 25%;
+    flex-grow: 2;
+    align-self: center;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.subject_title > h1 {
+    font-size: 40pt;
+}
+
+.subject_title > h2 {
+    color: #bbb;
+}
+
+.subject_title > h3 {
+    color: #ccc;
+}
+
+.section_title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 40pt;
+}
+
+.section_img_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0 50px 0;
+}
+
+.section_img_div img {
+    max-height: 300px;
+    box-shadow: 5px 5px 2px #888888;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.section_img_div figure {
+    display: table;
+    //text-align: center;
+    font-family: verdana;
+    font-size: 11pt;
+    color: gray;     
+}
+
+figcaption {
+    display: table-caption;
+    caption-side: bottom;
+    text-align: left;
+}
+
+.info_icon {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 2000;
+    margin: 80px 10px 0 0;
+}
