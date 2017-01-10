@@ -208,9 +208,5 @@ figcaption {
     top: 0;
     right: 0;
     z-index: 2000;
-    margin: 75px 10px 0 0;
-}
-
-.info_icon img {
-    width: 25px;
+    margin: 80px 10px 0 0;
 }
