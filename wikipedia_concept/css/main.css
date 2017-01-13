@@ -206,10 +206,46 @@ figcaption {
     position: fixed;
     top: 0;
     right: 0;
-    z-index: 2000;
     margin: 80px 15px 0 0;
 }
 
 .info_icon > img {
     width: 25px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.info_icon > img:hover {
+    box-shadow: 0 0 5px black;
+}
+
+.side_div {
+    height: 100%;
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed;
+    z-index: 1; /* Stay on top */
+    top: 0;
+    right: 0;
+    background-color: rgba(1,1,1,.8);
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.side_div a {
+    text-decoration: none;
+    color: lightgrey;
+    transition: 0.3s
+}
+
+.side_div a:hover, .offcanvas a:focus{
+    color: darkgrey;
+}
+
+.side_div .closebtn {
+    position: absolute;
+    top: 65px;
+    right: 17px;
+    font-size: 36px;
+    margin-left: 50px;
 }

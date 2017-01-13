@@ -69,9 +69,25 @@
         <!-- /.container -->
     </nav>
     
-    <div class="info_icon">
-        <img src="img/info_icon.png" width="25px" title="More info">
+    <div id="mySidediv" class="side_div">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeDiv()">&times;</a>
     </div>
+    
+    <span class="info_icon" onclick="openDiv()"><img src="img/info_icon.png" width="25px" title="More info"></span>
+    
+    <script>/* Set the width of the side navigation to 250px */
+function openDiv() {
+    document.getElementById("mySidediv").style.width = "500px";
+}
+
+/* Set the width of the side navigation to 0 */
+function closeDiv() {
+    document.getElementById("mySidediv").style.width = "0";
+}</script>
+    
+    <!--<div class="info_icon">
+        <img src="img/info_icon.png" width="25px" title="More info">
+    </div>-->
 
     <!-- Intro Section -->
     <section id="1" class="section">
