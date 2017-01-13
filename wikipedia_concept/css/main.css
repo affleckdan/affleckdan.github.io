@@ -209,13 +209,13 @@ figcaption {
     margin: 80px 15px 0 0;
 }
 
-.info_icon > img {
+.info_icon img {
     width: 25px;
     border-radius: 50%;
     transition: 0.3s;
 }
 
-.info_icon > img:hover {
+.info_icon img:hover {
     box-shadow: 0 0 5px black;
 }
 
