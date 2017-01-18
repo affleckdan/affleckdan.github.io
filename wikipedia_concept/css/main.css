@@ -4,9 +4,10 @@
  */
 
 @font-face {
-font-family: OstrichSansRounded;
-src: url("fonts/ostrich-sans-rounded.ttf"),
-url("fonts/ostrich-sans-rounded.eot");
+font-family: 'OstrichSansRounded';
+src: url('fonts/ostrich-sans-rounded.ttf') format('truetype'),
+    url('fonts/ostrich-sans-rounded.eot') format('embedded-opentype'),
+    url('fonts/ostrich-sans-rounded.woff') format('woff');
 }
 
 body {
@@ -180,7 +181,7 @@ html {
     align-self: center;
     text-align: center;
     color: whitesmoke;
-    font-family: OstrichSansRounded, Arial;
+    font-family: 'OstrichSansRounded', Arial;
 }
 
 .subject_title > h1 {
