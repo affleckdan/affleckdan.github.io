@@ -3,6 +3,12 @@
  * Dan Affleck - 2017
  */
 
+@font-face {
+font-family: OstrichSansRounded;
+src: url("fonts/ostrich-sans-rounded.ttf"),
+url("fonts/ostrich-sans-rounded.eot");
+}
+
 body {
     width: 100%;
     height: 100%;
@@ -102,6 +108,28 @@ html {
   background-color: #e7e7e7;
 }
 
+.intro_header {
+    text-align: center;
+    padding: 5% 0 5% 0;
+    margin-bottom: 30px
+}
+
+.intro_header h4 {
+    color: #a1a1a1;
+    font-family: verdana;
+}
+
+.intro_header a {
+    color: #00c5ff;
+    font-size: 11pt;
+    font-family: verdana
+}
+
+.intro_header a:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+
 .title_div {
     display: flex;
     flex-direction: row;
@@ -109,7 +137,7 @@ html {
     width: 100%;
     margin-bottom: 40px;
     padding: 70px 0 70px 0;
-    background-color: #4d4d4d
+    background-color: #4d4d4d;
 }
 
 .img-thumbnail {
@@ -118,7 +146,7 @@ html {
   height: auto;
   padding: 4px;
   line-height: 1.42857143;
-  background-color: rgb(0,0,0,0);
+  background-color: rgba(0,0,0,0);
   border: 1px solid #111;
   border-radius: 4px;
   -webkit-transition: all .2s ease-in-out;
@@ -136,8 +164,7 @@ html {
     padding-top: 100px;
     padding-bottom: 25px;
     text-align: justify;
-    background: #fff;
-    
+    background: #fff;    
     font-size: 12pt;
     /*border-bottom: solid 1px;
     border-color: #ccc;*/
@@ -153,6 +180,7 @@ html {
     align-self: center;
     text-align: center;
     color: whitesmoke;
+    font-family: OstrichSansRounded, Arial;
 }
 
 .subject_title > h1 {
@@ -165,6 +193,7 @@ html {
 
 .subject_title > h3 {
     color: #ccc;
+    font-style: italic;
 }
 
 .section_title {

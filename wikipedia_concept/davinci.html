@@ -69,54 +69,51 @@
         <!-- /.container -->
     </nav>
     
-    <div id="mySidediv" class="side_div">
+<!-- Hidden side div -->
+    <div id="mySideDiv" class="side_div">
         <a href="javascript:void(0)" class="closebtn" onclick="closeDiv()">&times;</a>
     </div>
     
-    <span class="info_icon" onclick="openDiv()"><img src="img/info_icon.png" width="25px" title="More info"></span>
-    
-    <script>/* Set the width of the side navigation to 250px */
-function openDiv() {
-    document.getElementById("mySidediv").style.width = "500px";
-}
-
-/* Set the width of the side navigation to 0 */
-function closeDiv() {
-    document.getElementById("mySidediv").style.width = "0";
-}</script>
-    
-    <!--<div class="info_icon">
+    <span class="info_icon" onclick="openDiv()">
         <img src="img/info_icon.png" width="25px" title="More info">
-    </div>-->
+    </span>
+    
+    <script>/* Set the width of the side div to open */
+        function openDiv() {
+            document.getElementById("mySideDiv").style.width = "750px";
+        }
+
+    /* Set the width of the side div to 0 to close */
+        function closeDiv() {
+            document.getElementById("mySideDiv").style.width = "0";
+        }
+    </script>
+<!-- End hidden side div -->
 
     <!-- Intro Section -->
-    <section id="1" class="section">
-        
-        <div class="container" style="text-align: center; padding: 5% 0 5% 0; margin-bottom: 30px">
-            <h4 style="color: #a1a1a1; font-family: verdana;">From Wikipedia, the free encyclopedia</h4>
-            <h5 style="color: #00c5ff; font-family: verdana">English</h5>
+    <section id="1" class="section">        
+        <div class="container intro_header">
+            <h4>From Wikipedia, the free encyclopedia</h4>
+            <a href="">English</a>
         </div>
         
-        <div class="title_div">
-            
+        <div class="title_div">            
             <div class="subject_title"></div>
             
             <div class="subject_title">
                 <h2>April 15, 1452 - May 2, 1519</h2>
                 <h1>Leonardo da Vinci</h1>
-                <h3><em>"Learning never exhausts the mind."</em></h3>
+                <h3>"Learning never exhausts the mind."</h3>
             </div>
             
             <div class="subject_title">
-            <img class="img-thumbnail img-circle" src="img/davinci_thumb.png" width="350px">
-            </div>
-            
+                <img class="img-thumbnail img-circle" src="img/davinci_thumb.png" width="350px">
+            </div>            
         </div>
         
         <div class="container" style="font-family: Verdana;">
             <div class="row">
                 <div class="col-lg-12">
-                     
                     <p><strong>Leonardo di ser Piero da Vinci </strong>(15 April, 1452 – 2 May, 1519) more commonly <strong>Leonardo da Vinci</strong> or simply <strong>Leonardo</strong>, was an Italian polymath whose areas of interest included invention, painting, sculpting, architecture, science, music, mathematics, engineering, literature, anatomy, geology, astronomy, botany, writing, history, and cartography. He has been variously called the father of palaeontology, ichnology, and architecture, and is widely considered one of the greatest painters of all time. Sometimes credited with the inventions of the parachute, helicopter and tank,[1][2][3] he epitomised the Renaissance humanist ideal.</p>
                     
                     <p>Many historians and scholars regard Leonardo as the prime exemplar of the "Universal Genius" or "Renaissance Man", an individual of "unquenchable curiosity" and "feverishly inventive imagination".[4] According to art historian Helen Gardner, the scope and depth of his interests were without precedent in recorded history, and "his mind and personality seem to us superhuman, while the man himself mysterious and remote".[4] Marco Rosci notes that while there is much speculation regarding his life and personality, his view of the world was logical rather than mysterious, and that the empirical methods he employed were unorthodox for his time.</p>
@@ -128,7 +125,6 @@ function closeDiv() {
                     <p>Leonardo is revered for his technological ingenuity. He conceptualised flying machines, a type of armoured fighting vehicle, concentrated solar power, an adding machine,[8] and the double hull. Relatively few of his designs were constructed or even feasible during his lifetime, as the modern scientific approaches to metallurgy and engineering were only in their infancy during the Renaissance. Some of his smaller inventions, however, such as an automated bobbin winder and a machine for testing the tensile strength of wire, entered the world of manufacturing unheralded. A number of Leonardo's most practical inventions are nowadays displayed as working models at the Museum of Vinci. He made substantial discoveries in anatomy, civil engineering, geology, optics, and hydrodynamics, but he did not publish his findings and they had no direct influence on later science.</p>
                     
                     <p>Today, Leonardo is widely considered one of the most diversely talented individuals ever to have lived.</p><br>
-                    
                 </div>
             </div>
         </div>

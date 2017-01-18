@@ -69,17 +69,36 @@
         </div>
         <!-- /.container -->
     </nav>
+    
+<!-- Hidden side div -->
+    <div id="mySideDiv" class="side_div">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeDiv()">&times;</a>
+    </div>
+    
+    <span class="info_icon" onclick="openDiv()">
+        <img src="img/info_icon.png" width="25px" title="More info">
+    </span>
+    
+    <script>/* Set the width of the side div to open */
+        function openDiv() {
+            document.getElementById("mySideDiv").style.width = "750px";
+        }
+
+    /* Set the width of the side div to 0 to close */
+        function closeDiv() {
+            document.getElementById("mySideDiv").style.width = "0";
+        }
+    </script>
+<!-- End hidden side div -->
 
     <!-- Intro Section -->
-    <section id="franklin" class="section">
-        
-        <div class="container" style="text-align: center; padding: 5% 0 5% 0; margin-bottom: 30px">
-            <h4 style="color: #a1a1a1; font-family: verdana;">From Wikipedia, the free encyclopedia</h4>
-            <h5 style="color: #00c5ff; font-family: verdana">English</h5>
+    <section id="franklin" class="section">        
+        <div class="container intro_header">
+            <h4>From Wikipedia, the free encyclopedia</h4>
+            <a href="">English</a>
         </div>
         
-        <div class="title_div">
-            
+        <div class="title_div">            
             <div class="subject_title"></div>
             
             <div class="subject_title">
@@ -89,9 +108,8 @@
             </div>
             
             <div class="subject_title">
-            <img class="img-thumbnail img-circle" src="../img/bfranklin_thumb.png" width="350px">
-            </div>
-            
+                <img class="img-thumbnail img-circle" src="../img/bfranklin_thumb.png" width="350px">
+            </div>            
         </div>
         
         <div class="container" style="font-family: Verdana;">
