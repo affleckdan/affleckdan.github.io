@@ -194,16 +194,18 @@ html {
     font-family: 'Lato-Light', Arial;
 }
 
-.subject_title > h1 {
+.subject_title h1 {
     font-size: 44pt;
 }
 
-.subject_title > h2 {
-    color: #bbb;
+.subject_title h2 {
+    color: #aaa;
+    font-size: 19pt;
 }
 
-.subject_title > h3 {
+.subject_title h3 {
     color: #ccc;
+    font-size: 18pt;
     font-style: italic;
 }
 
