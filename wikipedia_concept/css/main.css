@@ -189,6 +189,11 @@ html {
     font-family: 'Lato-Light', Arial;
 }
 
+.subject_title img {
+    width: 350px;
+    height: 350px;
+}
+
 .subject_title h1 {
     font-size: 44pt;
 }
