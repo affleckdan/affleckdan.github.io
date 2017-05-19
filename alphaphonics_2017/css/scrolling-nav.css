@@ -15,14 +15,16 @@ html {
 }
 
 .navbar-default {
-  background-color: #222;
-  border-color: #222;
+    background-color: #222;
+    border-color: #222;
 }
 .navbar-default .navbar-brand {
-  color: #9d9d9d;
+    font-size: 11pt;
+    color: #9d9d9d;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
+
   color: #5e5e5e;
   background-color: transparent;
 }
@@ -109,7 +111,23 @@ html {
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
 of those sections to manage the look and feel of the site. */
 
-.section {
+.banner {
+    margin-top: 115px;
+    text-align: center;
+    background-image: url("../img/banner_tile.svg");
+    width: 100%;
+}
+
+.logo {
+    width: 400px; margin-top: 20px;
+}
+
+.page_title {
+    font-size: 36pt;
+    text-align: center;
+}
+
+section {
     min-height: 100vh;
     padding-top: 50px;
     padding-bottom: 75px;

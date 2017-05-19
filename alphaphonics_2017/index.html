@@ -19,40 +19,33 @@
 
 </head>
 
-<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
-
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
+<body>
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
-            <div class="navbar-header page-scroll">
-                <a class="navbar-brand page-scroll" href="index.html">Home</a>
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+            <div class="navbar-header">
+
+                <a class="navbar-brand" href="index.html">Home</a>
                     
-                        <a class="page-scroll" href="#page-top"></a>
+                <a class="navbar-brand" href="alphabet.html">Alphabet</a>
                     
-                        <a class="navbar-brand page-scroll" href="alphabet.html" style="font-size:11pt;">Alphabet</a>
+                <a class="navbar-brand" href="writing.html">Writing</a>
                     
-                        <a class="navbar-brand page-scroll" href="writing.html" style="font-size:11pt;">Writing</a>
-                    
-                        <a class="navbar-brand page-scroll" href="lessons.html" style="font-size:11pt;">Lessons</a>
+                <a class="navbar-brand" href="lessons.html">Lessons</a>
                 
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+            </div><!-- /.navbar-header -->
+        </div><!-- /.container -->
+    </nav><!-- /navbar -->
     
-    <div class="container" style="margin-top: 115px; text-align: center; background-image: url(img/red.svg); width: 100%;"><img class="img-thumbnail" src="img/logo.png" style="width: 400px; margin-top: 20px; "></div>
+    <!-- Banner -->
+    <div class="banner">
+        <img class="img-thumbnail logo" src="img/logo.png">
+    </div>
     
-    <!-- Intro Section -->
-    <section id="intro" class="section">
+    <!-- Page Content -->
+    <section>
         <div class="container">
-            <div class="row">
-                <div style="text-align: left" class="col-lg-12">
-                   <!-- <img class="img-responsive" src="img/newest-banner.png"><br>-->
-                    <!--<h1>Samuel Blumenfled's Alpha-Phonics</h1><br>-->
+            <div style="text-align: left" class="col-lg-12">
                     <h3>What is Alpha-Phonics?</h3>
                     <p><strong>Alpha-Phonics</strong> is a complete phonics reading instruction designed by Samuel L. Blumenfeld for little beginners, but is regularly used by all ages to learn improve reading. It is complete; nothing else is needed. Anyone who can read can teach anyone to read with it.</p><br>
                     <h3>Samuel L. Blumenfeld</h3>
@@ -76,8 +69,6 @@
           <p><a class="btn btn-danger" href="lessons.html" role="button">View details &raquo;</a></p>
         </div>
       </div>
-                    <!--<a class="btn btn-default page-scroll" href="#about">Click Me to Scroll Down!</a>-->
-                </div>
             </div>
         </div>
     </section>
@@ -104,21 +95,18 @@
         </div>
     </section>-->
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.js"></script>
-
-    <!-- Scrolling Nav JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/scrolling-nav.js"></script>
-
+    <!-- Footer -->
     <footer>
         <div class="container"><p></p>
             <p>&copy; 2017 Dan Affleck</p>
         </div>
     </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.js"></script>
     
 </body>
 

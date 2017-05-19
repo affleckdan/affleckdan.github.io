@@ -19,60 +19,63 @@
 
 </head>
 
-<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
-
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
+<body>
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
-            <div class="navbar-header page-scroll">
-                <a class="navbar-brand page-scroll" href="index.html">Home</a>
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+            <div class="navbar-header">
+
+                <a class="navbar-brand" href="index.html">Home</a>
                     
-                        <a class="page-scroll" href="#page-top"></a>
+                <a class="navbar-brand" href="alphabet.html">Alphabet</a>
                     
-                        <a class="navbar-brand page-scroll" href="alphabet.html" style="font-size:11pt;">Alphabet</a>
+                <a class="navbar-brand" href="writing.html">Writing</a>
                     
-                        <a class="navbar-brand page-scroll" href="writing.html" style="font-size:11pt;">Writing</a>
-                    
-                        <a class="navbar-brand page-scroll" href="lessons.html" style="font-size:11pt;">Lessons</a>
+                <a class="navbar-brand" href="lessons.html">Lessons</a>
                 
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+            </div><!-- /.navbar-header -->
+        </div><!-- /.container -->
+    </nav><!-- /navbar -->
     
-    <div class="container" style="margin-top: 115px; text-align: center; background-image: url(img/red.svg); width: 100%;"><img class="img-thumbnail" src="img/logo.png" style="width: 400px; margin-top: 20px; "></div>
+    <!-- Banner -->
+    <div class="banner">
+        <img class="img-thumbnail logo" src="img/logo.png">
+    </div>
     
-    
-    <section id="intro" class="section">
+    <!-- Page Content -->
+    <section>
         <div class="container">
-            <div class="row">
-                <div style="text-align: left" class="col-lg-12">
-                    <h1 style="font-size: 36pt; text-align: center">Lessons</h1><br>
-                    
-                </div>
+            <div style="text-align: left" class="col-lg-12">
+                <h1 class="page_title">Lessons</h1><br>
+                    <ul>
+                        <li>Lesson 1</li>
+                        <li>Lesson 2</li>
+                        <li>Lesson 3</li>
+                        <li>Lesson 4</li>
+                        <li>Lesson 5</li>
+                        <li>Lesson 6</li>
+                        <li>Lesson 7</li>
+                        <li>Lesson 8</li>
+                        <li>Lesson 9</li>
+                        <li>Lesson 10</li>
+                    </ul>
             </div>
         </div>
     </section>
     
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.js"></script>
-
-    <!-- Scrolling Nav JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/scrolling-nav.js"></script>
-
+    <!-- Footer -->
     <footer>
         <div class="container"><p></p>
             <p>&copy; 2017 Dan Affleck</p>
         </div>
     </footer>
     
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.js"></script>
+
 </body>
 
 </html>
