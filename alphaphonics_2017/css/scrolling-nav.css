@@ -1,124 +1,23 @@
 /*  Copyright 2017 Dan Affleck  */
 
-body {
-    width: 100%;
-    height: auto;
-    margin:0;
-	padding:0;
-    background: #222;
-}
+/* ------------------- Custom CSS ------------------- */
 
 html {
     width: 100%;
-    height: auto;
+    height: 100%;
+    margin: 0;
+	padding: 0;
 }
 
-.navbar-default {
-    background-color: #222;
-    border-color: #222;
-}
-.navbar-default .navbar-brand {
-    font-variant: small-caps;
-    font-weight: bold;
-    font-size: 11pt;
-    color: #9d9d9d;
-}
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
-
-  color: #5e5e5e;
-  background-color: transparent;
-}
-.navbar-default .navbar-text {
-  color: #777;
-}
-.navbar-default .navbar-nav > li > a {
-  color: #777;
-}
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-  color: #333;
-  background-color: transparent;
-}
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-  color: #555;
-  background-color: #222;
-}
-.navbar-default .navbar-nav > .disabled > a,
-.navbar-default .navbar-nav > .disabled > a:hover,
-.navbar-default .navbar-nav > .disabled > a:focus {
-  color: #ccc;
-  background-color: transparent;
-}
-.navbar-default .navbar-toggle {
-  border-color: #ddd;
-}
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-  background-color: #222;
-}
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #222;
-}
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
-  border-color: #222;
-}
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:hover,
-.navbar-default .navbar-nav > .open > a:focus {
-  color: #555;
-  background-color: #222;
-}
-@media (max-width: 767px) {
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #777;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #333;
-    background-color: transparent;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #555;
-    background-color: #222;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
-  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
-    color: #ccc;
-    background-color: transparent;
-  }
+body {
+    min-height:100%;
+	position:relative;
 }
 
-@media(min-width:767px) {
-    .navbar {
-        padding: 0px 0;
-       /* -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;*/
-    }
-
-    .top-nav-collapse {
-        padding: 0;
-    }
-}
-
-/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
-The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
-of those sections to manage the look and feel of the site. */
-
-#wrapper {
-	height: auto;
-	position: relative;
-}
+#navbar {}
 
 .banner {
-    //margin-top: 115px;
+    //padding-top: 115px;
     text-align: center;
     background-image: url("../img/banner_tile.svg");
     background-color: white;
@@ -130,18 +29,16 @@ of those sections to manage the look and feel of the site. */
     margin-top: 20px;
 }
 
+#content {
+    padding-top: 50px;
+    padding-bottom: 125px;
+    text-align: center;
+    background: #fff;
+}
+
 .page_title {
     font-size: 30pt;
     text-align: center;
-}
-
-#content {
-    min-height: 69.5vh;
-    height: auto;
-    padding-top: 50px;
-    padding-bottom: 75px;
-    text-align: center;
-    background: #fff;
 }
 
 .lesson_list {
@@ -153,7 +50,20 @@ of those sections to manage the look and feel of the site. */
     height: 50px;
     color: #9d9d9d;
     background-color: #222;
-    //position: absolute;
+    position: absolute;
     bottom: 0;
     left: 0;
+}
+
+
+/* ------------------- Editted Bootstrap CSS ------------------- */
+
+.navbar-default {
+    background-color: #222;
+}
+.navbar-default .navbar-brand {
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 11pt;
+    color: #9d9d9d;
 }
