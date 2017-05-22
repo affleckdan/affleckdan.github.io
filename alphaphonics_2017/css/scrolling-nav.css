@@ -14,22 +14,13 @@ body {
 	position: relative;
 }
 
-#navbar {
-    background-color: #222;
-}
-
 .banner {
-    border-top-style: solid;
+    border-top-style: solid; /* white space between navbar and banner */
     border-top-width: 115px;
     border-top-color: white;
     text-align: center;
     background-image: url("../img/banner_tile.svg");
     width: 100%;
-}
-
-.logo {
-    width: 400px;
-    margin-top: 20px;
 }
 
 #content {
@@ -63,10 +54,16 @@ body {
 
 .navbar-default {
     background-color: #222;
+    border-color: #222;
 }
 .navbar-default .navbar-brand {
     font-variant: small-caps;
     font-weight: bold;
     font-size: 11pt;
     color: #9d9d9d;
+}
+
+.img-thumbnail {
+    width: 400px;
+    margin-top: 20px;
 }
