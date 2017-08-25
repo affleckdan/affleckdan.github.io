@@ -10,12 +10,11 @@ html {
 body {
     min-height: 100%;
 	position: relative;
+    padding-top: 115px;/* white space above banner */
+    overflow-x: hidden;
 }
 
 .banner {
-    border-top-style: solid; /* white space between navbar and banner */
-    border-top-width: 115px;
-    border-top-color: white;
     text-align: center;
     background-image: url("../img/banner_tile.svg");
     width: 100%;
@@ -45,6 +44,38 @@ body {
     position: absolute;
     bottom: 0;
     left: 0;
+}
+
+.side_div {
+    height: 100%;
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed;
+    z-index: 1; /* Stay on top */
+    top: 0;
+    right: 0;
+    background-color: rgba(1,1,1,.8);
+    color: white;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.side_div a {
+    text-decoration: none;
+    color: lightgrey;
+    transition: 0.3s
+}
+
+.side_div a:hover, .offcanvas a:focus{
+    color: darkgrey;
+}
+
+.side_div .closebtn {
+    position: absolute;
+    top: 0px;
+    right: 17px;
+    font-size: 36px;
+    margin-left: 50px;
 }
 
 

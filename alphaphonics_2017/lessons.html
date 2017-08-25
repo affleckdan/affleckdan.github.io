@@ -32,7 +32,41 @@
                     
                 <a class="navbar-brand" href="writing.html">writing</a>
                     
-                <a class="navbar-brand" href="lessons.html">lessons</a>
+                <a class="navbar-brand" onclick="openDiv()" style="cursor: pointer;">lessons</a>
+                
+                <!-- Hidden side div -->
+    <div id="mySideDiv" class="side_div">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeDiv()">&times;</a>
+        
+        <div class="col-lg-12">
+            <h1 class="page_title">Lessons</h1><br>
+                <ul class="lesson_list">
+                    
+                    <li>Part 1</li>
+                    <li>Part 2</li>
+                    <li>Part 3</li>
+                    <li>Part 4</li>
+                    <li>Part 5</li>
+                    <li>Part 6</li>
+                    <li>Part 7</li>
+                    <li>Part 8</li>
+                    <li>Part 9</li>
+                    <li>Part 10</li>
+                </ul>
+        </div>
+    </div>
+    
+    <script>/* Set the width of the side div to open */
+        function openDiv() {
+            document.getElementById("mySideDiv").style.width = "650px";
+        }
+
+    /* Set the width of the side div to 0 to close */
+        function closeDiv() {
+            document.getElementById("mySideDiv").style.width = "0";
+        }
+    </script>
+<!-- End hidden side div -->
                 
             </div><!-- /.navbar-header -->
         </div><!-- /.container -->
@@ -52,6 +86,7 @@
 
                 <h1 class="page_title">Lessons</h1><br>
                 <ul class="lesson_list">
+                    
                     <li>Part 1</li>
                     <li>Part 2</li>
                     <li>Part 3</li>
