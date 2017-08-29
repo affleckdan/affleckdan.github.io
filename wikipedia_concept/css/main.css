@@ -169,7 +169,7 @@ body {
   border-radius: 50%;
 }
 
-.section {
+section {
     min-height: 100%;
     height: auto;
     padding-top: 100px;
@@ -181,7 +181,11 @@ body {
     border-color: #ccc;*/
 }
 
-.section:nth-child(odd) {
+section .container {
+    font-family: verdana;
+}
+
+section:nth-child(odd) {
     background: #eee;
 }
 
