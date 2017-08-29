@@ -351,6 +351,14 @@ hr {
 
 @media screen and (max-width: 480px) {
 
+    .intro_header h4 {
+        font-size: 12pt;
+    }
+
+    .intro_header a {
+        font-size: 10pt;
+    }
+
     .title_div {
         flex-direction: column;
         margin-bottom: 60px;
@@ -377,8 +385,8 @@ hr {
     }
 
     .subject_title img {
-        width: 300px;
-        height: 300px;
+        width: 275px;
+        height: 275px;
     }
 
     .section_img_div {
