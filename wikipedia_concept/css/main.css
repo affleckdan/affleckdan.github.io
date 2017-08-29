@@ -116,7 +116,7 @@ body {
 }
 
 #content {
-    padding-bottom: 300px;
+    padding-bottom: 350px;
 }
 
 .intro_header {
@@ -345,6 +345,17 @@ hr {
 
 
 @media screen and (max-width: 480px) {
+
+    .title_div {
+        flex-direction: column;
+        margin-bottom: 40px;
+        padding: 30px 0 50px 0;
+    }
+
+    .subject_title {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
 
     .section_img_div {
         display: flex;
