@@ -352,7 +352,7 @@ hr {
 @media screen and (max-width: 480px) {
 
     .intro_header h4 {
-        font-size: 12pt;
+        font-size: 11pt;
     }
 
     .intro_header a {
@@ -371,22 +371,26 @@ hr {
     }
 
     .subject_title h1 {
-        font-size: 36pt;
+        font-size: 32pt;
     }
 
     .subject_title h2 {
-        font-size: 16pt;
+        font-size: 14pt;
     }
 
     .subject_title h3 {
         color: #ccc;
-        font-size: 15pt;
+        font-size: 13pt;
         font-style: italic;
     }
 
     .subject_title img {
-        width: 275px;
-        height: 275px;
+        width: 250px;
+        height: 250px;
+    }
+
+    p {
+        font-size: 8pt;
     }
 
     .section_img_div {
