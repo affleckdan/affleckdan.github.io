@@ -229,7 +229,7 @@ section:nth-child(odd) {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin: 50px 0 50px 0;
+    margin-top: 50px;
 }
 
 .section_img_div img {
@@ -245,7 +245,8 @@ section:nth-child(odd) {
     //text-align: center;
     font-family: verdana;
     font-size: 11pt;
-    color: gray;     
+    color: gray;
+    margin-bottom: 50px;
 }
 
 figcaption {
@@ -352,6 +353,6 @@ hr {
     }
 
     .section_img_div figure {
-        margin-bottom: 40px;
+        //margin-bottom: 50px;
     }
 }
