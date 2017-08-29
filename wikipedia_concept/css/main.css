@@ -116,7 +116,7 @@ body {
 }
 
 #content {
-    padding-bottom: 200px;
+    padding-bottom: 300px;
 }
 
 .intro_header {
@@ -265,6 +265,7 @@ figcaption {
     width: 25px;
     border-radius: 50%;
     transition: 0.3s;
+    z-index: 2;
 }
 
 .info_icon img:hover {
@@ -312,12 +313,11 @@ figcaption {
     position: absolute;
     bottom: 0;
     left: 0;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 30px;
 }
 
 #footer .container {
-    width: 70%
 }
 
 #footer ul {
@@ -327,15 +327,31 @@ figcaption {
 }
 
 #footer ul li {
-    margin: 0;
-    padding: 0;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
+    //padding-top: 0.5em;
+    //padding-bottom: 0.5em;
     font-size: 1em;
 }
 
 #footer a {
-    padding-top: 0.5em;
+    //padding-top: 0.5em;
     padding-right: 10px;
-    padding-bottom: 0.5em;
+    //padding-bottom: 0.5em;
+}
+
+hr {
+    //width: 100%;
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .section_img_div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .section_img_div figure {
+        margin-bottom: 40px;
+    }
 }
