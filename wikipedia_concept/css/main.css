@@ -15,14 +15,15 @@
     src: url('../fonts/Lato-Light.ttf') format('truetype');
 }
 
-body {
+html {
     width: 100%;
     height: 100%;
 }
 
-html {
-    width: 100%;
-    height: 100%;
+body {
+    min-height: 100%;
+	position: relative;
+    overflow-x: hidden;
 }
 
 @media(min-width:767px) {
@@ -112,6 +113,10 @@ html {
 .navbar-default .navbar-nav > .active > a:focus {
   color: #555;
   background-color: #e7e7e7;
+}
+
+#content {
+    padding-bottom: 200px;
 }
 
 .intro_header {
@@ -290,4 +295,41 @@ figcaption {
     right: 17px;
     font-size: 36px;
     margin-left: 50px;
+}
+
+#footer {
+    width: 100%;
+    min-height: 50px;
+    height: auto;
+    color: #9d9d9d;
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+#footer .container {
+}
+
+#footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#footer ul li {
+    margin: 0;
+    padding: 0;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 1em;
+}
+
+#footer a {
+    padding-top: 0.5em;
+    padding-right: 10px;
+    padding-bottom: 0.5em;
 }
