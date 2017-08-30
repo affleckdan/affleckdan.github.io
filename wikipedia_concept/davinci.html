@@ -21,29 +21,27 @@
 
 <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body data-spy="scroll" data-target=".navbar-fixed-top">
 
 <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="navbar-left">
-            <div class="navbar-header page-scroll">
+        <nav class="navbar-left">
+            <nav class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top" title="Visit the main page"><img src="img/logo.png"></a>
-            </div>
+                <a class="navbar-brand page-scroll" href="#1" title="Visit the main page">
+                    <img src="img/wikipedia.png">
+                </a>
+            </nav><!-- /.navbar-header -->
 
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <nav class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a class="page-scroll" href="#page-top"></a>
-                    </li>
                     <li>
-                        <a class="page-scroll" href="#1" style="font-size: 13pt;">Leonardo da Vinci</a>
+                        <a class="page-scroll subject_nav" href="#1">Leonardo da Vinci</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#2">Life</a>
@@ -55,12 +53,12 @@
                         <a class="page-scroll" href="#4">Painting</a>
                     </li>
                 </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-    
+            </nav><!-- /.navbar-collapse -->
+        </nav><!-- /.navbar-left -->
+    </nav><!-- /.navbar -->
+<!-- End Navigation -->
+
+
 <!-- Hidden side div -->
     <div id="mySideDiv" class="side_div">
         <a href="javascript:void(0)" class="closebtn" onclick="closeDiv()">&times;</a>
@@ -82,8 +80,9 @@
     </script>
 <!-- End hidden side div -->
 
+
 <div id="content">
-    <!-- Intro Section -->
+    <!-- Section 1 -->
     <section id="1">
         <div class="container intro_header">
             <h4>From Wikipedia, the free encyclopedia</h4>
@@ -102,7 +101,7 @@
             <div class="subject_title">
                 <img class="img-thumbnail img-circle" src="img/davinci_thumb.png">
             </div>            
-        </div>
+        </div><!-- /.title_div -->
         
         <div class="container">
             <div class="row">
@@ -118,12 +117,12 @@
                     <p>Leonardo is revered for his technological ingenuity. He conceptualised flying machines, a type of armoured fighting vehicle, concentrated solar power, an adding machine, and the double hull. Relatively few of his designs were constructed or even feasible during his lifetime, as the modern scientific approaches to metallurgy and engineering were only in their infancy during the Renaissance. Some of his smaller inventions, however, such as an automated bobbin winder and a machine for testing the tensile strength of wire, entered the world of manufacturing unheralded. A number of Leonardo's most practical inventions are nowadays displayed as working models at the Museum of Vinci. He made substantial discoveries in anatomy, civil engineering, geology, optics, and hydrodynamics, but he did not publish his findings and they had no direct influence on later science.</p>
                     
                     <p>Today, Leonardo is widely considered one of the most diversely talented individuals ever to have lived.</p><br>
-                </div>
-            </div>
-        </div>
-    </section>
+                </div><!-- /.col-lg-12 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </section><!-- /#1 -->
 
-    <!-- About Section -->
+    <!-- Section 2 -->
     <section id="2">
         <div class="container">
             <div class="row">
@@ -218,12 +217,12 @@
                     <p>Leonardo died at Clos Lucé, on 2 May 1519. Francis I had become a close friend. Vasari records that the king held Leonardo's head in his arms as he died, although this story, beloved by the French and portrayed in romantic paintings by Ingres, Ménageot and other French artists, as well as by Angelica Kauffman, may be legend rather than fact.[nb 12] Vasari states that in his last days, Leonardo sent for a priest to make his confession and to receive the Holy Sacrament.[50] In accordance with his will, sixty beggars followed his casket.[nb 13] Melzi was the principal heir and executor, receiving, as well as money, Leonardo's paintings, tools, library and personal effects. Leonardo also remembered his other long-time pupil and companion, Salai, and his servant Battista di Vilussis, who each received half of Leonardo's vineyards. His brothers received land, and his serving woman received a black cloak "of good stuff" with a fur edge.[nb 14][51] Leonardo da Vinci was buried in the Chapel of Saint-Hubert in Château d'Amboise in France.</p>
                     
                     <p>Some 20 years after Leonardo's death, Francis was reported by the goldsmith and sculptor Benvenuto Cellini as saying: "There had never been another man born in the world who knew as much as Leonardo, not so much about painting, sculpture and architecture, as that he was a very great philosopher."</p>
-                </div>
-            </div>
-        </div>
-    </section>
+                </div><!-- /.col-lg-12 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </section><!-- /#2 -->
 
-    <!-- Services Section -->
+    <!-- Section 3 -->
     <section id="3">
         <div class="container">
             <div class="row">
@@ -301,12 +300,12 @@
                     <p>Gian Giacomo Caprotti da Oreno, nicknamed Salai or Il Salaino ("The Little Unclean One" i.e., the devil), entered Leonardo's household in 1490. After only a year, Leonardo made a list of his misdemeanours, calling him "a thief, a liar, stubborn, and a glutton", after he had made off with money and valuables on at least five occasions and spent a fortune on clothes. Nevertheless, Leonardo treated him with great indulgence, and he remained in Leonardo's household for the next thirty years. Salai executed a number of paintings under the name of Andrea Salai, but although Vasari claims that Leonardo "taught him a great deal about painting", his work is generally considered to be of less artistic merit than others among Leonardo's pupils, such as Marco d'Oggiono and Boltraffio. In 1515, he painted a nude version of the Mona Lisa, known as Monna Vanna. Salai owned the Mona Lisa at the time of his death in 1525, and in his will it was assessed at 505 lire, an exceptionally high valuation for a small panel portrait.</p>
 
                     <p>In 1506, Leonardo took on another pupil, Count Francesco Melzi, the son of a Lombard aristocrat, who is considered to have been his favourite student. He travelled to France with Leonardo and remained with him until Leonardo's death. Melzi inherited the artistic and scientific works, manuscripts, and collections of Leonardo and administered the estate.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+                </div><!-- /.col-lg-12 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </section><!-- /#3 -->
 
-    <!-- Contact Section -->
+    <!-- Section 4 -->
     <section id="4">
         <div class="container">
             <div class="row">
@@ -404,13 +403,15 @@
                     </div>
 
                     <p>Other drawings of interest include numerous studies generally referred to as "caricatures" because, although exaggerated, they appear to be based upon observation of live models. Vasari relates that if Leonardo saw a person with an interesting face he would follow them around all day observing them. There are numerous studies of beautiful young men, often associated with Salai, with the rare and much admired facial feature, the so-called "Grecian profile". These faces are often contrasted with that of a warrior. Salai is often depicted in fancy-dress costume. Leonardo is known to have designed sets for pageants with which these may be associated. Other, often meticulous, drawings show studies of drapery. A marked development in Leonardo's ability to draw drapery occurred in his early works. Another often-reproduced drawing is a macabre sketch that was done by Leonardo in Florence in 1479 showing the body of Bernardo Baroncelli, hanged in connection with the murder of Giuliano, brother of Lorenzo de' Medici, in the Pazzi conspiracy. With dispassionate integrity Leonardo has registered in neat mirror writing the colours of the robes that Baroncelli was wearing when he died.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-</div>
+                </div><!-- /.col-lg-12 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </section><!-- /#4 -->
 
-    <!-- Footer -->
+</div><!-- /.content -->
+
+
+<!-- Footer -->
     <div id="footer">
         <div class="container"><p></p>
             <ul>
@@ -426,10 +427,13 @@
                 <a href="">Cookie Statement</a>
                 <a href="">Mobile View</a>
             </ul>
-        </div>
+        </div><!-- /.container -->
     </div><!-- /#footer -->
+<!-- End Footer -->
 
 </body>
+<!-- End Body -->
+
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>

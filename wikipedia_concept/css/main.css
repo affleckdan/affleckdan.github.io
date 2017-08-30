@@ -48,7 +48,7 @@ body {
     float: left;
     height: 50px;
     padding-top: 15px;
-    padding-right: 20px;
+    padding-right: 30px;
     padding-left: 15px;
     font-size: 18px;
     line-height: 20px;
@@ -56,8 +56,8 @@ body {
 
 .navbar-brand > img {
     display: block;
-    width: 100px; 
-    margin-top: -30%;
+    width: 165px;
+    margin-top: -3px;
 }
 
 .navbar-nav {
@@ -118,6 +118,10 @@ body {
 .navbar-default .navbar-nav > .active > a:focus {
     color: #555;
     background-color: #e7e7e7;
+}
+
+.subject_nav {
+    font-size: 13pt;
 }
 
 #content {
@@ -265,13 +269,13 @@ figcaption {
     top: 0;
     right: 0;
     margin: 80px 15px 0 0;
+    cursor: pointer;
 }
 
 .info_icon img {
     width: 25px;
     border-radius: 50%;
     transition: 0.3s;
-    z-index: 2;
 }
 
 .info_icon img:hover {
