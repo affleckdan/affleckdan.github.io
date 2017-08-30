@@ -230,7 +230,13 @@ section:nth-child(odd) {
 .section_title {
     text-align: center;
     margin-bottom: 40px;
-    font-size: 40pt;
+    font-size: 36pt;
+}
+
+.subtitle {
+    text-align: left;
+    font-size: 18pt;
+    margin-top: 40px;
 }
 
 .section_img_div {
@@ -238,7 +244,7 @@ section:nth-child(odd) {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .section_img_div img {
@@ -255,7 +261,7 @@ section:nth-child(odd) {
     font-family: verdana;
     font-size: 11pt;
     color: gray;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 figcaption {
@@ -393,6 +399,15 @@ hr {
         height: 250px;
     }
 
+    .section_title {
+        font-size: 30pt;
+    }
+
+    .subtitle {
+        text-align: left;
+        font-size: 16pt;
+    }
+
     p {
         font-size: 10pt;
     }
@@ -403,7 +418,16 @@ hr {
         justify-content: space-around;
     }
 
+    .section_img_div img {
+        max-height: 250px;
+        max-width: 300px;
+    }
+
     .section_img_div figure {
         //margin-bottom: 50px;
+    }
+
+    .section_img_div figure {
+        font-size: 9pt;
     }
 }
