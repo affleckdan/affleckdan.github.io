@@ -1,15 +1,9 @@
 header {
     height: 100vh;
-    padding: 154px 0 100px;
     background-image: url("../img/city2.jpg");
+    background-size: 100%;
     background-color: mediumaquamarine;
     color: white;
-}
-
-@media (min-width: 992px) {
-    header {
-        padding: 156px 0 100px;
-    }
 }
 
 .center_column {
@@ -34,7 +28,7 @@ header {
     display: block;
     height: 150px;
     width: 500px;
-    border: solid white 3px;
+    border: solid rgba(255,255,255,0.75) 3px;
 }
 
 section {
@@ -53,3 +47,11 @@ section#services {
 section#contact {
     background-color: lightpink;
 }
+
+
+/* ---------- Media Queries ---------- */
+
+@media (max-width: 480px) {
+    header {
+        background-size: 325%;
+    }
