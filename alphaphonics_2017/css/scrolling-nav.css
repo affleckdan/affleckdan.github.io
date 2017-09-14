@@ -21,13 +21,15 @@ body {
 }
 
 #home_content {
-    //height: 100vh;
     width: 100%;
     margin-top: -115px;
     text-align: center;
     background-image: url("../img/banner/book_shelf.jpeg");
+    -webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
     background-attachment:fixed;
-    background-size: 100%;
+    background-size: cover;
 }
 
 .home_banner {
