@@ -25,9 +25,9 @@ body {
     margin-top: -115px;
     text-align: center;
     background-image: url("../img/banner/book_shelf.jpeg");
-    -webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
+    -webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
     background-attachment:fixed;
     background-size: cover;
 }
