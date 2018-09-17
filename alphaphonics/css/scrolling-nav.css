@@ -12,6 +12,7 @@ body {
 	position: relative;
     padding-top: 115px;/* white space above banner */
     overflow-x: hidden;
+    font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
 }
 
 .banner {
@@ -51,7 +52,6 @@ body {
 }
 
 p {
-    font-family: "proxima-nova", "Proxima Nova", "Verdana", "Helvetica", Arial, sans-serif;
     text-align: justify;
     font-size: 13pt;
 }
